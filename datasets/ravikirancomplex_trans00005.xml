@@ -1,0 +1,188 @@
+<POSLog xmlns:pcms="http://www.pcmsgroup.com/XML" xmlns="http://www.nrf-arts.org/IXRetail/namespace/">
+    <Transaction>
+        <RetailStoreID>2837</RetailStoreID>
+        <BusinessUnit>
+            <UnitID TypeCode="RetailStore">2837</UnitID>
+        </BusinessUnit>
+        <BusinessUnit>
+            <UnitID TypeCode="AdministrationCenter">0001</UnitID>
+        </BusinessUnit>
+        <WorkstationID>1004</WorkstationID>
+        <SequenceNumber>4694</SequenceNumber>
+        <BusinessDayDate>2017-09-26</BusinessDayDate>
+        <BeginDateTime>2017-09-26T10:14:33</BeginDateTime>
+        <EndDateTime>2017-09-26T10:15:31</EndDateTime>
+        <OperatorID OperatorType="Cashier">030008</OperatorID>
+        <CurrencyCode>CAD</CurrencyCode>
+        <ReceiptNumber>4000046944</ReceiptNumber>
+        <RetailTransaction Version="2.2" TransactionStatus="Finished" OutsideSalesFlag="false">
+            <LineItem EntryMethod="Scanned" pcms:LineType="6">
+                <SequenceNumber>0</SequenceNumber>
+                <BeginDateTime>2017-09-26T10:14:33</BeginDateTime>
+                <pcms:PCMSLineItem>
+                    <pcms:DetailNumber TxnType="TxnDetail">1</pcms:DetailNumber>
+                </pcms:PCMSLineItem>
+                <Sale ItemType="Stock" ItemSubType="pcms:NotNormallyStocked">
+                    <ItemID Type="SKU">000000008055</ItemID>
+                    <ItemID Type="PLU">000000008055</ItemID>
+                    <POSIdentity POSIDType="OriginalBarcode">
+                        <POSItemID>228055000200</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="5">00643</MerchandiseHierarchy>
+                    <ItemNotOnFileFlag>false</ItemNotOnFileFlag>
+                    <Description>ONLINE,LOTTERY SAL</Description>
+                    <TaxIncludedInPriceFlag>false</TaxIncludedInPriceFlag>
+                    <UnitCostPrice>0</UnitCostPrice>
+                    <RegularSalesUnitPrice>0</RegularSalesUnitPrice>
+                    <ActualSalesUnitPrice>2</ActualSalesUnitPrice>
+                    <ExtendedAmount>2</ExtendedAmount>
+                    <Quantity UnitOfMeasureCode="EA">1</Quantity>
+                    <SellingLocation pcms:SubDepartmentCode="139">LS</SellingLocation>
+                    <Associate>
+                        <AssociateID OperatorType="Cashier">030008</AssociateID>
+                    </Associate>
+                    <Tax TaxType="Sales">
+                        <SequenceNumber>0</SequenceNumber>
+                        <TaxAuthority>CA</TaxAuthority>
+                        <TaxableAmount>2</TaxableAmount>
+                        <Amount>0</Amount>
+                        <Percent>0.0</Percent>
+                        <TaxRuleID>N</TaxRuleID>
+                        <TaxGroupID>N</TaxGroupID>
+                        <pcms:PCMSTax>
+                            <pcms:TaxRuleName>NONETAX</pcms:TaxRuleName>
+                            <pcms:DetailNumber TxnType="TxnDetailTaxes">1</pcms:DetailNumber>
+                        </pcms:PCMSTax>
+                    </Tax>
+                    <pcms:PCMSSale>
+                        <pcms:ExtendedAmountAllDiscounts>2</pcms:ExtendedAmountAllDiscounts>
+                        <pcms:LinkedItemLevel>0</pcms:LinkedItemLevel>
+                        <pcms:MerchandisingFormat>0</pcms:MerchandisingFormat>
+                        <pcms:OwningDepartment>451</pcms:OwningDepartment>
+                        <pcms:PriceControl>0</pcms:PriceControl>
+                        <pcms:PriceDiscountable>2</pcms:PriceDiscountable>
+                        <pcms:ProductHandling>10</pcms:ProductHandling>
+                        <pcms:Resaleable>false</pcms:Resaleable>
+                        <pcms:SelfScanPrice>2</pcms:SelfScanPrice>
+                    </pcms:PCMSSale>
+                </Sale>
+                <pcms:PCMSCustomData Name="ProdAttribCustomData">redeemable=0;pointable=0</pcms:PCMSCustomData>
+            </LineItem>
+            <LineItem EntryMethod="Scanned" pcms:LineType="6">
+                <SequenceNumber>1</SequenceNumber>
+                <BeginDateTime>2017-09-26T10:14:47</BeginDateTime>
+                <pcms:PCMSLineItem>
+                    <pcms:DetailNumber TxnType="TxnDetail">2</pcms:DetailNumber>
+                </pcms:PCMSLineItem>
+                <Sale ItemType="Stock" ItemSubType="pcms:NotNormallyStocked" pcms:NegativeValue="true">
+                    <ItemID Type="SKU">000000008056</ItemID>
+                    <ItemID Type="PLU">000000008056</ItemID>
+                    <POSIdentity POSIDType="OriginalBarcode">
+                        <POSItemID>980805600190</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="5">00647</MerchandiseHierarchy>
+                    <ItemNotOnFileFlag>false</ItemNotOnFileFlag>
+                    <Description>REDEMPTION ONLINE</Description>
+                    <TaxIncludedInPriceFlag>false</TaxIncludedInPriceFlag>
+                    <UnitCostPrice>0</UnitCostPrice>
+                    <RegularSalesUnitPrice>0</RegularSalesUnitPrice>
+                    <ActualSalesUnitPrice>1.9</ActualSalesUnitPrice>
+                    <ExtendedAmount>1.9</ExtendedAmount>
+                    <Quantity UnitOfMeasureCode="EA">1</Quantity>
+                    <SellingLocation pcms:SubDepartmentCode="140">LO</SellingLocation>
+                    <Associate>
+                        <AssociateID OperatorType="Cashier">030008</AssociateID>
+                    </Associate>
+                    <Tax TaxType="Sales" pcms:NegativeValue="true">
+                        <SequenceNumber>0</SequenceNumber>
+                        <TaxAuthority>CA</TaxAuthority>
+                        <TaxableAmount>1.9</TaxableAmount>
+                        <Amount>0</Amount>
+                        <Percent>0.0</Percent>
+                        <TaxRuleID>N</TaxRuleID>
+                        <TaxGroupID>N</TaxGroupID>
+                        <pcms:PCMSTax>
+                            <pcms:TaxRuleName>NONETAX</pcms:TaxRuleName>
+                            <pcms:DetailNumber TxnType="TxnDetailTaxes">2</pcms:DetailNumber>
+                        </pcms:PCMSTax>
+                    </Tax>
+                    <pcms:PCMSSale>
+                        <pcms:ExtendedAmountAllDiscounts>1.9</pcms:ExtendedAmountAllDiscounts>
+                        <pcms:LinkedItemLevel>0</pcms:LinkedItemLevel>
+                        <pcms:MerchandisingFormat>0</pcms:MerchandisingFormat>
+                        <pcms:OwningDepartment>452</pcms:OwningDepartment>
+                        <pcms:PriceControl>0</pcms:PriceControl>
+                        <pcms:PriceDiscountable>1.9</pcms:PriceDiscountable>
+                        <pcms:ProductHandling>373</pcms:ProductHandling>
+                        <pcms:Resaleable>false</pcms:Resaleable>
+                        <pcms:SelfScanPrice>1.9</pcms:SelfScanPrice>
+                    </pcms:PCMSSale>
+                </Sale>
+                <pcms:PCMSCustomData Name="ProdAttribCustomData">redeemable=0;pointable=0</pcms:PCMSCustomData>
+            </LineItem>
+            <LineItem>
+                <SequenceNumber>2</SequenceNumber>
+                <BeginDateTime>2017-09-26T10:15:30</BeginDateTime>
+                <EndDateTime>2017-09-26T10:15:32</EndDateTime>
+                <pcms:PCMSLineItem>
+                    <pcms:DetailNumber TxnType="TxnMedia">0</pcms:DetailNumber>
+                    <pcms:DetailNumber TxnType="TxnMedia">1</pcms:DetailNumber>
+                </pcms:PCMSLineItem>
+                <Tender TenderType="Cash" TypeCode="Sale">
+                    <TenderID>1</TenderID>
+                    <Amount>0.10</Amount>
+                    <TenderChange TenderType="Cash">
+                        <TenderID>1</TenderID>
+                        <Amount>0.00</Amount>
+                        <pcms:PCMSTender>
+                            <pcms:MediaType>1</pcms:MediaType>
+                        </pcms:PCMSTender>
+                    </TenderChange>
+                    <pcms:PCMSTender>
+                        <pcms:MediaType>1</pcms:MediaType>
+                    </pcms:PCMSTender>
+                </Tender>
+            </LineItem>
+            <LineItem>
+                <SequenceNumber>3</SequenceNumber>
+                <pcms:PCMSRefusedSale>
+                    <Reason>43031:19</Reason>
+                </pcms:PCMSRefusedSale>
+                <pcms:PCMSLineItem>
+                    <pcms:DetailNumber>0</pcms:DetailNumber>
+                </pcms:PCMSLineItem>
+            </LineItem>
+            <Total TotalType="TransactionGrandAmount">0.1</Total>
+            <Total TotalType="TransactionGrossAmount">0.1</Total>
+            <Total TotalType="TransactionNetAmount">0.1</Total>
+            <Total TotalType="TransactionTaxAmount">0</Total>
+            <LoyaltyAccount>
+                <CustomerID>828973607</CustomerID>
+            </LoyaltyAccount>
+            <pcms:PCMSLoyaltyAccounts>
+                <pcms:LoyaltyAccount>
+                    <pcms:EmailAddress>venky.vaggu@loblaw.ca</pcms:EmailAddress>
+                    <pcms:DeclinedEmail>false</pcms:DeclinedEmail>
+                    <pcms:UpdatedEmail>true</pcms:UpdatedEmail>
+                </pcms:LoyaltyAccount>
+                <pcms:LoyaltyAccount>
+                    <pcms:CustomerType>2</pcms:CustomerType>
+                    <pcms:LoyaltyAccountID>828973607</pcms:LoyaltyAccountID>
+                    <pcms:LoyaltyAccountStatus>00</pcms:LoyaltyAccountStatus>
+                    <pcms:LoyaltyCaptureMode>0</pcms:LoyaltyCaptureMode>
+                    <pcms:LoyaltyCardType>7</pcms:LoyaltyCardType>
+                    <pcms:LoyaltyProgramName>OP</pcms:LoyaltyProgramName>
+                </pcms:LoyaltyAccount>
+            </pcms:PCMSLoyaltyAccounts>
+        </RetailTransaction>
+        <pcms:PCMSTransaction>
+            <pcms:DBSchemaVersion>3.420.0</pcms:DBSchemaVersion>
+            <pcms:BuildNumber>BS3.100.0.build.3863</pcms:BuildNumber>
+            <pcms:OnlineStatus>0</pcms:OnlineStatus>
+            <pcms:TransactionType>3</pcms:TransactionType>
+            <pcms:WorkstationPersonality>COSMETIC</pcms:WorkstationPersonality>
+            <pcms:ExternalSystem/>
+            <pcms:UTCOffset>-04:00</pcms:UTCOffset>
+        </pcms:PCMSTransaction>
+    </Transaction>
+</POSLog>

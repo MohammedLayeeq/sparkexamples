@@ -1,0 +1,22 @@
+i am layyeq layeeq layeeq
+Add text to figure using mouse - MATLAB gtext
+www.mathworks.com/help/matlab/ref/gtext.htmlCached
+This MATLAB function inserts the text, str, at the location you select with the mouse.
+
+Genotype-Tissue Expression (GTEx) - GTEx Portal
+gtexportal.orgCached
+Portal for the Genotype-Tissue Expression (GTEx) project. Gene expression and quantitative trait loci from 53 human tissues. Visualization and download of all public ...
+
+GText - Home | Facebook
+www.facebook.com/gTextCached
+gText pricing model which suits students,corporate,family and friends or colleagues
+
+Gtext Homes – Gtext Homes
+gtexthomes.comCached
+GTEXT HOMES. Gtext Homes is a highly respected, solution providing real Estate Firm. We believe in providing premium personal service now, and well into the future.
+
+gtext (MATLAB Functions)
+matlab.izmiran.ru/help/techdoc/ref/gtext.htmlCached
+gtext('string') waits for you to press a mouse button or keyboard key while the pointer is within a figure window. Pressing a mouse button or any key places 'string ...
+
+SMS from Gmail ™ & Facebo
